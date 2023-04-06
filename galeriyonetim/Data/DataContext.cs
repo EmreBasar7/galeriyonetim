@@ -8,5 +8,7 @@ namespace galeriyonetim.Data
 
 
         public DbSet<arac> arac { get; set; }
+
+        public DbSet<arac> aracs { get; set; } 
     }
 }
